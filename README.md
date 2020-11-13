@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - npm start/
 
 ## Project Structure
-- src\
+-src\
 -- components\
 --- DragnDrop - All required components for DragnDrop functionality\
 ---- DragArea - DragArea component\
