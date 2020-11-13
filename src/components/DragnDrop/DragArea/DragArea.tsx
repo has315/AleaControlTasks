@@ -24,14 +24,11 @@ const DragArea = ({ children, items, onChange }: DragAreaProps) => {
 
   // a[0] = a[1]
   // a[1] = a[0]
-
   // a[0] != value
-
   // a[] => arr index
 
   const onDragOver = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
-
   };
 
   const onDrop = (e: any) => {

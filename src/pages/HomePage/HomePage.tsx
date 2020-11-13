@@ -4,7 +4,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div>
-            aaaa
+            HomePage
         </div>
     )
 }

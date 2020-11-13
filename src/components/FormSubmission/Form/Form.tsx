@@ -1,6 +1,5 @@
-import { SentimentDissatisfiedSharp } from "@material-ui/icons";
-import React, {ReactChild, useState } from "react";
-// import FormContext from '../FormContext';
+import React from "react";
+
 
 //type to allow component nesting
 type WithChildren<T = {}> = 
@@ -10,10 +9,11 @@ type WithChildren<T = {}> =
 type FormProps = WithChildren<{
     initialValues: any,
     onSubmit: any,
+    className: string
 }>
 
 
-const Form = ({children, initialValues, onSubmit}: FormProps) => {
+const Form = ({children, initialValues, onSubmit, className}: FormProps) => {
 
   //function to prevent reload and log state
   const onSubmite = (e:any) => {
@@ -34,7 +34,7 @@ const Form = ({children, initialValues, onSubmit}: FormProps) => {
   //note for children.map might break app
   return (
       <>
-      <form onSubmit={onSubmite}> 
+      <form className={className} onSubmit={onSubmite}> 
         {children ? React.Children.map(children, (el:any, index:any)=> React.cloneElement(el,{key:index, onChange: onChange})) : ""} 
       </form>
       <div id="holderDiv"></div>

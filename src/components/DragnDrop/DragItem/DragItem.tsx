@@ -1,9 +1,8 @@
-import { CSSProperties } from "@material-ui/core/styles/withStyles";
 import React, { useContext, useState, useRef, SetStateAction } from "react";
 import DragContext from "../DragContext";
-type WithChildren<T = {}> = T & { children?: React.ReactNode, style: string | CSSProperties | undefined, id:any};
+type WithChildren<T = {}> = T & { children?: React.ReactNode, className?: string, id:any};
 
-const DragItem = ({ children, style, id }: WithChildren) => {
+const DragItem = ({ children, className, id }: WithChildren) => {
   const {draggedItem, setDraggedItem} = useContext(DragContext)
   const {draggedOverID, setDraggedOverID} = useContext(DragContext)
 
@@ -19,7 +18,7 @@ const DragItem = ({ children, style, id }: WithChildren) => {
 
   return (
     <div
-      className="itemContainer"
+      className={className}
       key={id}
       draggable
       onDragStart={onDragStart}
