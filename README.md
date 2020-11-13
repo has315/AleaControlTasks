@@ -2,7 +2,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to Run 
-- npm install/
+- npm install
 - npm start
 
 ## Project Structure
@@ -28,4 +28,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ---FormSubmissionPage - Page that renders FormSubmission components\
 ---HomePage - Blank default page\
 ---UseFormattedPage - Page that renders UseFormattedPage\
---util - Anything extra, such as users.json\
+--util - Anything extra, such as users.json
