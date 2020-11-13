@@ -1,0 +1,47 @@
+  // const getValue = () => {
+  //   let props = name.split(".");
+  //   let value;
+  //   for (let el of props) {
+  //     if (!value) {
+  //       value = userState[el];
+  //     } else {
+  //       value = value[el];
+  //     }
+  //   }
+  //   return value;
+  // };
+
+
+
+  // const setValue = (value: any) => {
+    // let props = name.split(".");
+    // let tmp: any;
+    // for (let el of props) {
+    //   if (!tmp) {
+    //     userState[el] = value;
+    //   } else if (el === props[props.length - 1]) {
+    //     tmp[el] = value;
+    //     console.log(tmp[el]);
+    //   } else {
+    //     tmp = tmp[el];
+    //     console.log("tmpreg" + tmp);
+    //   }
+    // }
+  // };
+
+  const handleInputChange = (e: React.ChangeEvent<any>) => {
+    e.persist();
+    //name value
+    // setInputs(e.target.value);
+    // setValue(e.target.value);
+  };
+  //   const clearInput = () => {
+  //     setInputs(initialValues);
+  //   };
+
+
+
+
+
+  
+        // let addToarr = el === input ? : res.push(element) : '';
