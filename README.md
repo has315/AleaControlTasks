@@ -19,8 +19,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ----**Layout**  - Layout component\
 ---**SideMenu** - All required components for SideMenu functionality\
 ----**SideMenu** - SideMenu component\
-
-
 --**hooks**\
 ---**UseFormattedData** - Hook for searching, sorting and filtering data provided from users.js\
 --**pages** -- All pages that serve as View layer\
