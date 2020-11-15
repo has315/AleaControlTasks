@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Form, FormInput } from "../../components/";
+import { Form, FormInput } from "../../components";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles: any = makeStyles(() => ({

@@ -12,7 +12,7 @@ const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 
 const UseFormattedPage = lazy(() => import('./pages/UseFormattedPage/UseFormattedPage'));
 const DragnDropPage = lazy(() => import('./pages/DragnDropPage/DragnDropPage'));
-const FormSubmissionPage = lazy(() => import('./pages/FormSubmission/FormSubmission')); 
+const FormSubmissionPage = lazy(() => import('./pages/FormSubmissionPage/FormSubmissionPage')); 
 /*** Utils pages ***/
 // const ErrorPage = lazy(() => import('./pages/UtilPages/ErrorPage.js'));
 
